@@ -8,8 +8,7 @@ import Portfolio from './components/Portfolio.js'
 import About from './components/About';
 import BaseLayout from './components/BaseLayout.js'
 
-ReactDOM.render(<App />() document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(
 <BrowserRouter>
 <BaseLayout>
   <Switch>
@@ -20,5 +19,6 @@ registerServiceWorker();
 </BaseLayout>
 </BrowserRouter>
 
-,document.getElementById('root'));
+,document.getElementById('root')
+);
 registerServiceWorker();
