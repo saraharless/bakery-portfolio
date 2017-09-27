@@ -3,7 +3,8 @@ body {
 }
 
 div {
-  width: 80%;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 a{
@@ -25,21 +26,37 @@ nav a{
 
 h1 {
   text-transform: uppercase;
-  text-align: center;
 }
 
 .btn {
-  background-color: red;
+  background-color: purple;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 20px;
   justify-content: center;
   border: none;
-  margin: 10px 40px;
+  border-radius: 5px;
 }
 
 p {
   max-width: 80%;
   padding: 10px;
+}
+
+.selected {
+  color: grey;
+}
+
+.contact a {
+  color: purple;
+}
+
+.contact, .references, .about, .home {
+  padding-left: 100px;
+}
+
+.app {
+  width: 100%;
+  justify-content: center;
 }

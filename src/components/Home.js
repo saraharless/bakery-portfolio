@@ -12,7 +12,7 @@ export default class Home extends Component {
     };
 
     return (
-      <div>
+      <div className="home">
       <h1>Sin Bakery</h1>
       <img src={drakeoncake} style={imgStyle} alt="drake on cake trend"></img>
       <p>Baked Goods that will not make you feel bad.</p>
